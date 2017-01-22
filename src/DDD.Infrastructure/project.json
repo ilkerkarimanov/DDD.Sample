@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "DDD.Infrastructure Class Library",
+
+  "dependencies": {
+    "DDD.Domain": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0-*",
+    "MongoDB.Bson": "2.2.4",
+    "MongoDB.Driver": "2.2.4",
+    "MongoDB.Driver.Core": "2.2.4",
+    "MongoDB.Driver.GridFS": "2.2.4",
+    "NETStandard.Library": "1.6.1-*",
+    "Scrutor": "1.10.0"
+  },
+
+  "frameworks": {
+    "net451": {}
+  }
+}

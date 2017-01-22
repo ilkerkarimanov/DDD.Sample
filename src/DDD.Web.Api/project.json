@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0-*",
+  "description": "DDD.Web.Api Class Library",
+
+  "dependencies": {
+    "DDD.App.Cqs": "1.0.0",
+    "DDD.Common.Cqs": "1.0.0",
+    "DDD.Infrastructure": "1.0.0",
+    "DDD.Logging.Mongo": "1.0.0",
+    "DDD.Infrastructure.Mongo": "1.0.0",
+    "DDD.Common": "1.0.0",
+    "Microsoft.AspNetCore.Http": "1.1.0",
+    "Microsoft.AspNetCore.Mvc": "1.1.0-*",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0-*",
+    "Microsoft.AspNetCore.Session": "1.1.0",
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+    "Microsoft.Extensions.Configuration.CommandLine": "1.1.0-*",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.0-*",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0-*",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+    "Microsoft.Extensions.Logging.Debug": "1.1.0-*",
+    "Newtonsoft.Json": "9.0.1",
+    "Microsoft.Extensions.Logging.Console": "1.1.0"
+  },
+
+  "tools": {
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-*",
+    "Microsoft.DotNet.Watcher.Tools": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  },
+  "commands": {
+    "web": "DDD.Web.Api"
+  },
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "publishOptions": {
+    "include": [
+      "wwwroot",
+      "Views",
+      "Areas/**/Views",
+      "appsettings.json",
+      "hosting.json",
+      "web.config"
+    ]
+  },
+
+  "scripts": {
+    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  }
+}

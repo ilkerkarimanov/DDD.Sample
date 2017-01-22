@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "description": "DDD.Logging.Mongo Class Library",
+  "dependencies": {
+    "DDD.Infrastructure": "1.0.0-*",
+    "Microsoft.AspNetCore.Http": "1.1.0-*",
+    "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0-*",
+    "Microsoft.AspNetCore.Mvc.Core": "1.1.0-*",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0-*",
+    "Microsoft.Extensions.Logging.Debug": "1.1.0-*",
+    "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+    "MongoDB.Bson": "2.2.4",
+    "MongoDB.Driver": "2.2.4",
+    "MongoDB.Driver.Core": "2.2.4",
+    "NETStandard.Library": "1.6.1",
+    "Scrutor": "1.10.0"
+  },
+
+  "frameworks": {
+    "net451": {}
+  }
+}
