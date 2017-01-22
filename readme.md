@@ -73,7 +73,7 @@ void | Result
 From     | To
 ---------|----------
 T | Maybe\<T>
-IEnumerable\<T> | Maybe<IEnumerable\<T>>
+IEnumerable\<T> | Maybe\<IEnumerable\<T>>
 
 **Q**: What is DDD.Logging.Mongo?
 
