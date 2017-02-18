@@ -1,7 +1,7 @@
 ﻿using DDD.App.Cqs.Queries.Todos;
 using DDD.App.Cqs.QueryResult.Todos;
-using DDD.Common;
-using DDD.Common.Cqs.Query;
+using DDD.Core;
+using DDD.Core.Cqs.Query;
 using DDD.Domain.Todos;
 using System.Collections.Generic;
 using System.Linq;

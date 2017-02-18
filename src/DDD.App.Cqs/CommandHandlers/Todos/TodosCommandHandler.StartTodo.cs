@@ -1,6 +1,6 @@
-﻿using DDD.Common.Cqs.Command;
+﻿using DDD.Core.Cqs.Command;
 using System.Threading.Tasks;
-using DDD.Common;
+using DDD.Core;
 using DDD.Domain.Todos;
 using DDD.App.Cqs.Commands.Todos;
 

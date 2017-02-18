@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "description": "DDD.Core.Domain Class Library",
+  "dependencies": {
+    "NullGuard.Fody": "1.4.6",
+    "DDD.Core": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "net451": {}
+  }
+}

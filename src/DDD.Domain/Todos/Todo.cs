@@ -1,5 +1,5 @@
-﻿using DDD.Common.Domain;
-using DDD.Common;
+﻿using DDD.Core.Domain;
+using DDD.Core;
 using System.Collections.Generic;
 using System.Linq;
 

@@ -1,5 +1,5 @@
 ﻿using DDD.App.Cqs.QueryResult.Todos;
-using DDD.Common.Cqs.Query;
+using DDD.Core.Cqs.Query;
 using FluentValidation;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

@@ -43,7 +43,7 @@ Version  | Date | Comments
 *The fundamental rule is that all code can depend on layers more central, but code cannot depend on layers further out from the core.  In other words, all coupling is toward the center. 
 This architecture is unashamedly biased toward object-oriented programming, and it puts objects before all others.*
 
-**Q**: What is the purpose of DDD.Common.CQS?
+**Q**: What is the purpose of DDD.Core.CQS?
 
 **A**: That is a core interface with which you can clearly define and organize code around **Command and Query Separation** principle. This way application is designed by implementing separate Query and Command objects to retrieve and modify data, respectively.
 

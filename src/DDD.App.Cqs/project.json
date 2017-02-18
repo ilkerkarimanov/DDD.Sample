@@ -3,7 +3,7 @@
   "description": "DDD.App.Cqs Class Library",
 
   "dependencies": {
-    "DDD.Common.Cqs": "1.0.0-*",
+    "DDD.Core.Cqs": "1.0.0-*",
     "DDD.Domain": "1.0.0-*",
     "FluentValidation": "6.4.0-beta9",
     "Microsoft.AspNetCore.Mvc": "1.1.0-*",

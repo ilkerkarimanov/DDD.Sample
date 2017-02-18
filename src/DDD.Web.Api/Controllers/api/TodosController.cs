@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DDD.Common.Cqs.Query;
-using DDD.Common.Cqs.Command;
+using DDD.Core.Cqs.Query;
+using DDD.Core.Cqs.Command;
 using System.Threading.Tasks;
 using DDD.App.Cqs.Commands.Todos;
 using DDD.App.Cqs.Queries.Todos;
-using DDD.Common;
+using DDD.Core;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 

@@ -1,4 +1,4 @@
-﻿using DDD.Common.Cqs.Command;
+﻿using DDD.Core.Cqs.Command;
 using DDD.Domain.Todos;
 using FluentValidation;
 using System.Collections.Generic;

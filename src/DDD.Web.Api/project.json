@@ -4,11 +4,11 @@
 
   "dependencies": {
     "DDD.App.Cqs": "1.0.0",
-    "DDD.Common.Cqs": "1.0.0",
+    "DDD.Core.Cqs": "1.0.0",
     "DDD.Infrastructure": "1.0.0",
     "DDD.Logging.Mongo": "1.0.0",
     "DDD.Infrastructure.Mongo": "1.0.0",
-    "DDD.Common": "1.0.0",
+    "DDD.Core": "1.0.0",
     "Microsoft.AspNetCore.Http": "1.1.0",
     "Microsoft.AspNetCore.Mvc": "1.1.0-*",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0-*",

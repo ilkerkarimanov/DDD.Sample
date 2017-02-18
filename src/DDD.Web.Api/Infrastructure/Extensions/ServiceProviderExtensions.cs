@@ -1,5 +1,5 @@
-﻿using DDD.Common.Cqs.Command;
-using DDD.Common.Cqs.Query;
+﻿using DDD.Core.Cqs.Command;
+using DDD.Core.Cqs.Query;
 using System;
 
 namespace DDD.Web.Api.Infrastructure

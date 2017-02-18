@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-using DDD.Common.Cqs;
-using DDD.Common.Domain;
-using DDD.Common;
+using DDD.Core.Cqs;
+using DDD.Core.Domain;
+using DDD.Core;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -61,7 +61,7 @@ namespace DDD.Web.Api.Controllers
                     .Select(error => error.ErrorMessage)
                     .ToArray();
 
-            var modelValidationResult = errors.Length == 0 ? Common.Result.Ok() : Common.Result.Fail(errors.ToArray());
+            var modelValidationResult = errors.Length == 0 ? Core.Result.Ok() : Core.Result.Fail(errors.ToArray());
 
             return modelValidationResult.Succeeded ?  OkResult() : new ObjectResult(
                 new

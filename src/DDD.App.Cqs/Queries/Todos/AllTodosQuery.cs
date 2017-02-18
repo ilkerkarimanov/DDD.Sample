@@ -1,5 +1,5 @@
 ﻿using DDD.App.Cqs.QueryResult.Todos;
-using DDD.Common.Cqs.Query;
+using DDD.Core.Cqs.Query;
 using System.Collections.Generic;
 
 namespace DDD.App.Cqs.Queries.Todos

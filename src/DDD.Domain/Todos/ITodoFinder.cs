@@ -1,4 +1,4 @@
-﻿using DDD.Common.Domain;
+﻿using DDD.Core.Domain;
 
 namespace DDD.Domain.Todos
 {

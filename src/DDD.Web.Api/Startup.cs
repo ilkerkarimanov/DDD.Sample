@@ -3,14 +3,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using DDD.Common.Cqs;
+using DDD.Core.Cqs;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using System;
 using DDD.App.Cqs;
 using DDD.Infrastructure;
 using DDD.Logging.Mongo;
 using Microsoft.AspNetCore.Http;
-using DDD.Common;
+using DDD.Core;
 using DDD.Infrastructure.Mongo;
 
 namespace DDD.Web.Api

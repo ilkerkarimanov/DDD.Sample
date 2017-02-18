@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using DDD.Common.Domain;
+using DDD.Core.Domain;
 
 namespace DDD.Domain.Actions
 {

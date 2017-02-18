@@ -3,7 +3,7 @@
   "description": "DDD.Domain Class Library",
 
   "dependencies": {
-    "DDD.Common.Domain": "1.0.0-*",
+    "DDD.Core.Domain": "1.0.0-*",
     "Microsoft.Bcl": "1.1.9"
   },
 
